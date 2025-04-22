@@ -1,0 +1,141 @@
+ h1{
+    text-align: center;
+    color: brown;
+ }
+ .dice{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8vh;
+    text-align: center;
+    background-color: pink;
+    color: red;
+ }
+ button{
+    background-color:green;
+    color:white;
+    width: 140px;
+    height: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+ }
+ .chance{
+    display: flex;
+    flex-direction: column;
+ }
+ .game{
+    height: 650px;
+    width: 586px;
+    border: 2px solid black;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+ }
+ .game{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    gap: -0.00px;
+ }
+ .box{
+    width: 70px;
+    height: 60px;
+border: 2px solid black;
+    text-align: center;
+      align-content: center;
+       }
+
+    .b{
+        background-color: rgb(241, 102, 102);
+        color: rgb(61, 59, 59);
+
+    }
+    .r{
+        background-color:white;
+    }
+    .w{
+        color: black;
+        text-align: center;
+        background-color: rgb(91, 200, 91);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        align-content: center;
+        transition: 0.2s ease-in-out;
+
+    }
+    .s{
+        color: black;
+        text-align: center;
+        background-color: burlywood;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        align-content: center;
+    }
+    .sn{
+        color: rgb(220, 220, 43);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    .la{
+        color: rgb(9, 235, 126);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    .player {
+        background-color: blue !important;
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    .dice {
+        height: 150px;
+        width: 220px;
+        border: 3px solid #333;
+        border-radius: 15px;
+        background: linear-gradient(145deg, #ffe6e6, #ffd6d6);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #b30000;
+    }
+    
+    #dice-number {
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+        background-color: #fff0f0;
+        padding: 8px 16px;
+        border-radius: 10px;
+    }
+    
+    button {
+        background-color: #28a745;
+        color: white;
+        width: 140px;
+        height: 35px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+
+    }
+    
+    button:hover {
+        background-color: #218838;
+        transform: scale(1.05);
+    }
+    
